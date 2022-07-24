@@ -1,0 +1,36 @@
+
+public class Salon {
+	private String clave;
+	private String estatus;
+
+	public Salon() {
+
+	}
+
+	public Salon(String clave, String estatus) {
+
+		this.clave = clave;
+		this.estatus = estatus;
+	}
+
+	@Override
+	public String toString() {
+		return "Salon [clave=" + clave + ", estatus=" + estatus + "]\n";
+	}
+
+	public String getClave() {
+		return clave;
+	}
+
+	public void setClave(String clave) {//cambiamos clave set clave para ediart
+		this.clave = clave;
+	}
+
+	public String getEstatus() {
+		return estatus;
+	}
+
+	public void setEstatus(String estatus) {//cambiamos estatus porprincipal set.estado
+		this.estatus = estatus;
+	}
+}

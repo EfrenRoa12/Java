@@ -1,0 +1,14 @@
+package _1LISTAS;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in); //ES LA FORMA DE DECIR DE QUE INICIALIZA PARA PODER IMPRIMIR
+		
+		//CREAMOS 
+		
+	}
+
+}
